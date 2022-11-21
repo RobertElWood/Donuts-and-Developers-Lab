@@ -1,0 +1,10 @@
+<div *ngFor="let d of donuts[0].results">
+    <br>
+    <p>Id: {{d.id}}</p>
+    <p>Type: {{d.name}}</p>
+    <button [routerLink]="['/gcdonut-detail', d.id]">Click For Details</button>
+    <br>
+</div>
+<br>
+<br>
+<br>
